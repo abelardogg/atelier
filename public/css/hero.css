@@ -1,0 +1,11 @@
+.hero{
+    background: rgb(0 0 0 / 75%);
+    color: #c9c9c9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    border-radius: 10px;
+}

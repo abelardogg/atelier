@@ -1,8 +1,12 @@
 :root{
-    --main-blue: rgb(34, 126, 255)
+    --main-blue: rgb(34, 126, 255);
+    --deep-gray: #414141;
+    --gray: #c9c9c9;
 }
 
-body{font-size: 16px;}
+*{box-sizing: border-box;}
+
+body{font-size: 16px; font-family: Arial, Helvetica, sans-serif;}
 
 h1, .h1 {font-size: 2em}
 h2, .h2 {font-size: 1.5em}
@@ -11,4 +15,7 @@ h4, .h4 {font-size: 1em}
 h5, .h5 {font-size: 0.8em}
 h6, .h6 {font-size: 0.7em}
 
-a{color: var(--main-blue);}
+a, a:visited, a:hover, a:active{
+    color: var(--main-blue);
+    text-decoration: none;
+}

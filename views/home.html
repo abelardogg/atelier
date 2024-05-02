@@ -3,15 +3,72 @@
 <head>
   <%- include ("partials/head.html") %>
   <%- include ("partials/css.html") %>
+  <style>
+    #main-continaer{
+      min-height: 100vh;
+      max-width: 1100px;
+      width: 100vw;
+      margin: auto;
+    }
+
+    #intro{
+      background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    background-image: url(/img/spark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    }
+
+    #tools-list{
+      display: flex;
+      gap: 20px;
+    }
+
+    .listed-tool{
+      width: 100px;
+      height: 100px;
+    }
+
+  </style>
 </head>
 <body>
         <!-- Incluir el encabezado -->
-        <%- include ("partials/header.html") %>
+        <%- include ("partials/nav.html") %>
 
         <!-- Contenido de la página -->
-        <main>
-         home
-      </main>
+        <div id="main-continaer">
+          <div id="intro">
+            <div class="hero">
+              <h1>Welcome to the forge</h1>
+              <p>Bring your idea and let us make it real!</p>
+            </div>
+          </div>
+
+          <div id="tools">
+            <p>Need some tools? check our components, they are simple but easy to modify to add your own style!</p>
+            <div id="tools-list">
+              <button class="listed-tool">
+                Responsive navbar
+              </button>
+              <button class="listed-tool">
+                Modal
+              </button>
+              <button class="listed-tool">
+                Hero
+              </button>
+            </div>
+
+            <p>If you need a customized component <a href="/contact">contact us</a> and let us do the dirty job.</p>
+          </div>
+
+
+
+        </div>
     
         <!-- Incluir el pie de página -->
         <%- include ("partials/footer.html") %>
