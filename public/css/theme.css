@@ -2,6 +2,7 @@
     --main-blue: rgb(34, 126, 255);
     --deep-gray: #414141;
     --gray: #c9c9c9;
+    --red: #BC0000;
 }
 
 *{box-sizing: border-box;}
