@@ -1,0 +1,32 @@
+.rh-form{}
+
+.rh-field{
+    position: relative;
+    margin-bottom: 15px;
+    
+}
+
+.rh-field label {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 12px;
+    color: var(--red);
+}
+
+.rh-field input, .rh-field textarea {
+    min-height: 40px;
+    padding: 10px 0px 0 6px;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    border-radius:  var(--base-border-radius);
+    border: 0;
+}
+
+.rh-field textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 0px 0 6px;
+
+}
+

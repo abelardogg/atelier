@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     let view = 'home';
     let model = {};
 
-    model.title = 'Atelier';
+    model.title = 'The Red Hood Forge';
 
     res.render(view, model);
 });

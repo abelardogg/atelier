@@ -4,7 +4,7 @@
 }
 
 .page-nav-container{
-    width: 100vw;
+    width: 100%;
     background-color: var(--deep-gray);
     display: flex;
     justify-content: center;

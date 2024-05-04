@@ -5,6 +5,11 @@
     --red: #BC0000;
 }
 
+:root{
+    --base-border-radius: 2px;
+}
+
+
 *{box-sizing: border-box;}
 
 body{font-size: 16px; font-family: Arial, Helvetica, sans-serif;}
@@ -19,4 +24,16 @@ h6, .h6 {font-size: 0.7em}
 a, a:visited, a:hover, a:active{
     color: var(--main-blue);
     text-decoration: none;
+}
+
+p{margin-bottom: 12px;}
+
+img{max-width: 100%;}
+
+button{
+    padding: 8px;
+    border-radius:  var(--base-border-radius);
+    background: var(--main-blue);
+    color: white;
+    border: 0;
 }
